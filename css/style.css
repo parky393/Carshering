@@ -1,0 +1,113 @@
+html{
+    box-sizing: border-box;
+}
+
+*
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.body{
+    font-family: "Roboto Condensed", serif;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+    color: #1B1B1B;
+}
+
+.header{
+    background-color: #332208;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+.menu__list{
+    display: flex;
+}
+
+
+.menu__item{
+    margin: 0 15px;
+}
+
+.menu__list-link{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all .5s;
+    border-bottom: 1px solid transparent;
+}
+
+.menu__list-link:hover{
+    border-bottom: 1px solid #fefefe;
+}
+
+.phone{
+    font-size: 18px;
+    line-height: 21px;
+    color: #fefefe;
+}
+
+.top__heading{
+    display: flex;
+    padding: 50px 0 30px;
+   
+}
+
+.top__content{
+    text-align: center;
+    padding-top: 90px;
+    width: 50%;
+}
+
+
+
+.top__title{
+    display: block;
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-size: 48;
+    line-height: 58px;
+    margin:0 auto 20px;
+    max-width: 455px;
+
+}
+
+.top__text{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 auto 60px;
+    max-width: 470px;
+}
+
+.application-btn{
+    text-transform: uppercase;
+    color: #fff;
+    background: #C5AC2D;
+    padding: 16px 19px 15px;
+    transition: all .5s;
+    border: 1px solid transparent;
+}
+
+.application-btn:hover{
+    color: #C5AC2D;
+    background: #fff;
+    border: 1px solid #C5AC2D;
+}
